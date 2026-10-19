@@ -5,3 +5,5 @@ if clases_asistidas >= 5:
     print("El catequizando cumple con la asistencia mínima")
 
 print("Programa finalizó")
+
+
