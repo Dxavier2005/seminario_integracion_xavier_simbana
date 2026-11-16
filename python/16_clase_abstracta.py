@@ -1,16 +1,15 @@
 from abc import ABC, abstractmethod
 
 
-class Personaje(ABC):
+class Catequizando(ABC):
     @abstractmethod
-    def atacar(self):
+    def asistir(self):
         pass
 
 
-class Goku(Personaje):
-    def atacar(self):
-        print("Kamehameha!")
+class CatequizandoComunion(Catequizando):
+    def asistir(self):
+        print("Asiste a la clase de Primera Comunión")
 
-goku = Goku()
-print(goku.atacar)
-
+maria = CatequizandoComunion()
+print(maria.asistir)
