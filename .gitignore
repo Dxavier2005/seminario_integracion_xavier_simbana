@@ -1,9 +1,7 @@
-
-# ============================================================
-# GITIGNORE GLOBAL PARA MONOREPOSITORIOS Y MULTIPROYECTOS
-# Python, FastAPI, uv, venv, Node.js y Angular
-# ============================================================
-
+"""
+GITIGNORE GLOBAL PARA MONOREPOSITORIOS Y MULTIPROYECTOS
+Python, FastAPI, uv, venv, Node.js y Angular
+"""
 
 # ============================================================
 # 1. SISTEMA OPERATIVO Y EDITORES
